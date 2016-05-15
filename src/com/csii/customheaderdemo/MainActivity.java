@@ -78,6 +78,17 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener {
 			flag =!flag;
 		}
 	}
+	public void changeHead_2(View v){
+		if(flag){
+			
+			customHeaderView.setmHeaderBitmap(bgBitmap2);
+			flag =!flag;
+		}else{
+			customHeaderView.setmHeaderBitmap(bgBitmap1);
+			flag =!flag;
+		}
+	}
+
 
 
 	private void init() {
