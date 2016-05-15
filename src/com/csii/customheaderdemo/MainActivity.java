@@ -38,7 +38,6 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener {
     }
 	private void initSeekBar() {
 		seekBar1.setMax(100);
-		//ta shi shui
 		//wo shi shui
 		seekBar2.setMax(mWidth/2);
 		seekBar3.setMax(mWidth);
