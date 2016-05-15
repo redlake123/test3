@@ -40,13 +40,13 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener {
 		seekBar1.setMax(100);
 		//xixiixi
 		//lallala
-		//我是谁
-		//超人
+		//我不知道我是谁
+		//鎴戞槸璋�		//瓒呬汉
 		seekBar2.setMax(mWidth/2);
-		//额外一行
+		//棰濆涓�
 		seekBar3.setMax(mWidth);
 		
-		//³õÊ¼Öµ
+		//鲁玫脢录脰碌
 		seekBar1.setProgress(500);
 		seekBar2.setProgress(mWidth/4);
 		seekBar3.setProgress(mWidth/2);
