@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener {
         customHeaderView.setmHeaderBitmap(bgBitmap1);
     }
 	private void initSeekBar() {
-		seekBar1.setMax(400);
+		seekBar1.setMax(100);
 		seekBar2.setMax(mWidth/2);
 		seekBar3.setMax(mWidth);
 		
@@ -78,6 +78,27 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener {
 			flag =!flag;
 		}
 	}
+	public void changeHead_1(View v){
+		if(flag){
+			
+			customHeaderView.setmHeaderBitmap(bgBitmap2);
+			flag =!flag;
+		}else{
+			customHeaderView.setmHeaderBitmap(bgBitmap1);
+			flag =!flag;
+		}
+	}
+	public void changeHead_2(View v){
+		if(flag){
+			
+			customHeaderView.setmHeaderBitmap(bgBitmap2);
+			flag =!flag;
+		}else{
+			customHeaderView.setmHeaderBitmap(bgBitmap1);
+			flag =!flag;
+		}
+	}
+
 
 
 	private void init() {
