@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener {
         customHeaderView.setmHeaderBitmap(bgBitmap1);
     }
 	private void initSeekBar() {
-		seekBar1.setMax(1000);
+		seekBar1.setMax(200);
 		seekBar2.setMax(mWidth/2);
 		seekBar3.setMax(mWidth);
 		
