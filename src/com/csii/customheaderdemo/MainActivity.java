@@ -40,7 +40,7 @@ public class MainActivity extends Activity implements OnSeekBarChangeListener {
 		seekBar1.setMax(100);
 		//xixiixi
 		//lallala
-		//wo shi shui
+		//我不知道我是谁
 		seekBar2.setMax(mWidth/2);
 		seekBar3.setMax(mWidth);
 		
