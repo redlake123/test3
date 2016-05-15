@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="CustomHeaderView">
+     	<attr name="backgroundArcRadius" format="dimension"/>
+     	<attr name="headRadius" format="dimension"/>
+     	<attr name="headStrokeWidth" format="dimension"/>
+     	<attr name="headMarginRight" format="dimension"/>
+    </declare-styleable>
+    
+</resources>
